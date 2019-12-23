@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG">
+	<test name="sanity">
+	<group>
+	<define name="a and b"/>
+	<run>
+	<include name="a"/>
+	<include name="b"/>
+	
+	</run>
+	
+	</group>
+		<classes>
+			<class name="HTMLforTestNG.ScipTest"/>
+			<class name="Annotation.TestAnnotation"/>
+			<methods>
+			<include name="firstTest"/>
+			<exclude name="thirdTest"/>
+			<include name="secondTest"/>
+				
+			</methods>
+	
+		</classes>
+		
+	</test>
+
+</suite>
+
+
+

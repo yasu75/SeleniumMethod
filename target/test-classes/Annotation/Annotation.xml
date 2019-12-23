@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Yasemin">
+	<test name="Yasemin Sanity">
+		<classes>
+			<class name="Annotation.TestAnnotation" />
+			<methods>
+				<include name="cTest" />
+				<exclude name="bTest" /><!-- bu method calismaz -->
+
+
+			</methods>
+
+
+		</classes>
+	</test>
+</suite>

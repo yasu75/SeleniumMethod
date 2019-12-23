@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112" started-at="2019-11-30T00:23:12Z" finished-at="2019-11-30T00:23:12Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestNGGroups.tc2()[pri:0, instance:SeleniumMethod.TestNGGroups@343f4d3d]" name="tc2" class="SeleniumMethod.TestNGGroups"/>
+        <method signature="TestNGGroups.tc4()[pri:0, instance:SeleniumMethod.TestNGGroups@343f4d3d]" name="tc4" class="SeleniumMethod.TestNGGroups"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestNGGroups.tc1()[pri:0, instance:SeleniumMethod.TestNGGroups@343f4d3d]" name="tc1" class="SeleniumMethod.TestNGGroups"/>
+        <method signature="TestNGGroups.tc3()[pri:0, instance:SeleniumMethod.TestNGGroups@343f4d3d]" name="tc3" class="SeleniumMethod.TestNGGroups"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="112" started-at="2019-11-30T00:23:12Z" finished-at="2019-11-30T00:23:12Z">
+      <class name="SeleniumMethod.TestNGGroups">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:SeleniumMethod.TestNGGroups@343f4d3d]" name="tc1" duration-ms="12" started-at="2019-11-29T16:23:12Z" finished-at="2019-11-29T16:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:SeleniumMethod.TestNGGroups@343f4d3d]" name="tc2" duration-ms="2" started-at="2019-11-29T16:23:12Z" finished-at="2019-11-29T16:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:SeleniumMethod.TestNGGroups@343f4d3d]" name="tc3" duration-ms="2" started-at="2019-11-29T16:23:12Z" finished-at="2019-11-29T16:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:SeleniumMethod.TestNGGroups@343f4d3d]" name="tc4" duration-ms="2" started-at="2019-11-29T16:23:12Z" finished-at="2019-11-29T16:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+      </class> <!-- SeleniumMethod.TestNGGroups -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
